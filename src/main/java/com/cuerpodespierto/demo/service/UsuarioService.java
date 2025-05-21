@@ -9,4 +9,5 @@ public interface UsuarioService {
     Usuario createUsuario(Usuario usuario);
     Usuario updateUsuario(Long id, Usuario usuario);
     void deleteUsuario(Long id);
+    Usuario findByEmail(String email);
 }
